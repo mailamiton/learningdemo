@@ -1,0 +1,19 @@
+Java I/O :- Api
+Java IO is an API that comes with Java which is targeted at reading and writing data.
+This can be found in package java.io
+
+Stream:- sequence of data
+A stream is a sequence of data.In Java a stream is composed of bytes.
+
+three streams:-
+OutputStream:- Java application uses an output stream to write data to a destination, it may be a file,an array,peripheral device or socket.
+InputStream :- Java application uses an input stream to read data from a source, it may be a file,an array,peripheral device or socket.
+
+
+ByteArrayOutputStream :- write multiple lines
+Java ByteArrayOutputStream class is used to write data into multiple files. In this stream, the data is written into a byte array that can be written to multiple stream.
+
+SequenceInputStream:- read multiple files
+Java SequenceInputStream class is used to read data from multiple streams. It reads data of streams one by one.
+
+

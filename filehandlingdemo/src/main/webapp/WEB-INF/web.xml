@@ -1,0 +1,25 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http:/java.sun.com/dtd/web-app_2_3.dtd">
+  <display-name>Archetype Created Web Application</display-name>
+  	 <servlet>
+	   <servlet-name>demoServlet</servlet-name>
+	   <servlet-class>com.nav.filehandlingdemo.servletUpload.demoServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	   <servlet-name>demoServlet</servlet-name>
+	   <url-pattern>/demoServlet</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+	   <servlet-name>demoUploadServlet</servlet-name>
+	   <servlet-class>com.nav.filehandlingdemo.servletUpload.demoUploadServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	   <servlet-name>demoUploadServlet</servlet-name>
+	   <url-pattern>/demoUploadServlet</url-pattern>
+	</servlet-mapping>
+  
+</web-app>
