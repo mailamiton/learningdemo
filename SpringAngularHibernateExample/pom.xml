@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.np.example</groupId>
-  <artifactId>SpringAngularHibernateExample</artifactId>
+  <artifactId>SpringExample</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>SpringAngularHibernateExample Maven Webapp</name>
@@ -72,6 +72,6 @@
 		</dependency>
   </dependencies>
   <build>
-    <finalName>SpringAngularHibernateExample</finalName>
+    <finalName>SpringExample</finalName>
   </build>
 </project>
